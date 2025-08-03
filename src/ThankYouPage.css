@@ -1,0 +1,38 @@
+.thankyou-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: beige;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.thankyou-card {
+  background-color: white;
+  color: #333;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.thankyou-card h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.thankyou-card p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.thankyou-card .signature {
+  margin-top: 30px;
+  font-style: italic;
+  font-size: 16px;
+  color: #555;
+}

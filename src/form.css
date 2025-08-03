@@ -1,0 +1,87 @@
+/* Reset and basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bootcamp-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Left: Form */
+.form-section {
+  width: 50%;
+  padding: 40px;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Right: Image */
+.image-section {
+  width: 50%;
+  background-image: url('https://images.unsplash.com/photo-1596495577886-d920f1fb7238');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bootcamp-container {
+    flex-direction: column;
+  }
+
+  .form-section,
+  .image-section {
+    width: 100%;
+    height: 50vh;
+  }
+}

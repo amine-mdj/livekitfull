@@ -1,0 +1,117 @@
+.poster-container {
+  box-sizing: border-box;
+  height: 100vh;
+  width:100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: beige;
+  font-family: Arial, sans-serif;
+}
+
+.button1 {
+  background-color:#cc0000;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 16px;
+  
+}
+.button {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.button2 {
+  background-color: transparent;
+  border:  1px solid #cc0000;
+  padding: 8px;
+  text-align: center;
+  color:#cc0000;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.poster-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-left {
+  width: 45%;
+}
+
+.header-left h2 {
+  font-size: 22px;
+  color: #174c8f;
+  margin-bottom: 15px;
+}
+
+.grad-img {
+  width: 200px;
+}
+
+.header-right {
+  width: 50%;
+  text-align: right;
+}
+
+.header-right h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blue-box {
+  background: #174c8f;
+  color: white;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.mission-text {
+  color: #cc0000;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.poster-fields {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.field {
+  text-align: center;
+  width: 18%;
+}
+
+.field img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+.field p {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #174c8f;
+}
+
+.poster-footer {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #555;
+}
